@@ -7,3 +7,6 @@ Revision history for the module "App::Bin4TSV" :
         計7個のモジュールをBUILD_REQUIRESに書いた。
         ls -1d Bin* | perl -pe 's/^/"/;s/$/"/ ; s/$/ => 0 , /' | tr -d "\n"  を利用した。
 
+0.102   2021-05-27T23:06+0900
+        BUILD_REQUIRESでなくて、PREREQ_PMで設定していた恐れがあるので、改訂。
+        cpanm --save-dist App::Bin4TSV でインストールするので、ファイル INSTALL を書き換え。 
