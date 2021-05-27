@@ -10,3 +10,6 @@ Revision history for the module "App::Bin4TSV" :
 0.102   2021-05-27T23:06+0900
         BUILD_REQUIRESでなくて、PREREQ_PMで設定していた恐れがあるので、改訂。
         cpanm --save-dist App::Bin4TSV でインストールするので、ファイル INSTALL を書き換え。 
+
+0.320   2021-05-27T23:55+0900
+        単にバージョンの番号を上げてみた。実験のため。

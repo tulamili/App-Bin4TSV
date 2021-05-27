@@ -1,5 +1,5 @@
 package Bin::Data::1D ;
-our $VERSION = '0.012' ; 
+our $VERSION = '0.320' ; 
 our $DATE = '2021-05-27T23:05+0900' ; 
 
 =encoding utf8
