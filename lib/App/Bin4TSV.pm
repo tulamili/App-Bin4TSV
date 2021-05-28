@@ -1,6 +1,6 @@
 package App::Bin4TSV ;  
-our $VERSION = '0.321' ; 
-our $DATE = '2021-05-27T23:05+0900' ; 
+our $VERSION = '0.322' ; 
+our $DATE = '2021-05-28T16:05+0900' ; 
 
 =encoding utf8
 

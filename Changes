@@ -16,3 +16,6 @@ Revision history for the module "App::Bin4TSV" :
 
 0.321   2021-05-28T00:05+0900
         .pm ファイルの package 名が間違っていたので訂正。
+
+0.322   2021-05-28T16:05+0900
+        再び BUILD_REQUIRES に必要な7個のモジュール名を記載。PREREQ_PM にも同じハッシュを書くようにした。
