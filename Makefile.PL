@@ -1,23 +1,13 @@
 use ExtUtils::MakeMaker;
 
-my $mh = 
-  { 
-    "Bin-Data-1D" =>  0.120 ,
-    "Bin-File-Dir" => 0.202 ,
-    "Bin-File-Time" => 0.200 ,
-    "Bin-Gen-Rand" => 0.100 ,
-    "Bin-Subtotal" => 0.200 ,
-    "Bin-TSV-Conv" => 0.300 ,
-    "Bin-Text-Color-Plus" => 0.051
-  } ; 
-
+my @scripts = qw{ alluniq backcolor boxmuller cat-n chars2code cointoss colchop colgrep colhashS collen colorplus colpairs colsplit colsummary crosstable csel csv2tsv depthdepth digitdemog dirdig dirdim dirhier entrolines expskip fileday freq gzpaste hashtotal headomit horsekicks idmaker inarow join2 joinn keyvalues kvcmp lastaccess linedigest lminusl madeafter mtranspose quantile resistorcc saikoro samesize sampler summing t1generate t2generate timeput uniq-c updir venn wc-l xlsx2tsv } ;
 
 WriteMakefile (
   NAME            => 'App::Bin4TSV' ,
   VERSION_FROM    => 'lib/App/Bin4TSV.pm' , 
-  BUILD_REQUIRES => $mh , 
-  PREREQ_REQUIRES => $mh , 
+  EXE_FILES => [ map {"scripts/$_"} @scripts ] ,
   AUTHOR => 'Toshiyuki SHIMONO (bin4tsv at gmail.com)' , 
   LICENSE => 'perl_5' 
+
 ) ;
  
