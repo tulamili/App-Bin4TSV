@@ -29,9 +29,6 @@ cpanm -U App::Bin4TSV
 ```
 上記により、除去するファイルの一覧が表示される。yキーを押下すると、アンインストールが完了する。
 
-# 解説
-
-このモジュール(もしくはGitHubのこのレポジトリ)が提供するコマンド群は、(1) 2016年12月ワシントンDCでのIEEE Big Data 2016のWorkshop(2nd International workshop on Methodologies to Improve Big Data Projects)での発表、(2) 映像情報メディア学会の学会誌の2018年7月号《私の研究開発ツール》（第100回）Table::Hack 表形式データの前分析ソフトウェア、(3) Web+Press DB 第124巻(翔泳社) 2021年8月号のPerl Hackers Hub の連載 第68回目 で紹介されたプログラムを提供している。
 
 # 各コマンドについて
 
@@ -39,3 +36,13 @@ cpanm -U App::Bin4TSV
 # 注意点・バグなど
 
 「コマンド名の衝突」に由来する不具合は想定されうる(App::Bin4TSVのインストールにより他のコマンドが使えなくなる、およびApp::Bin4TSVのアンインストールにより他のモジュールがインストールしたはずの実行ファイルが消されてしまうなど)。
+
+
+# 関連資料
+
+このモジュール(もしくはGitHubのこのレポジトリ)が提供するコマンド群は、下記で解説が講演や雑誌投稿の形で過去に行われた。
+
+1. 2016年12月ワシントンDCでのIEEE Big Data 2016の<a href="http://cci.drexel.edu/bigdata/bigdata2016/Workshops.html">Workshop</a>(2nd International workshop on Methodologies to Improve Big Data Projects)での発表
+2. 映像情報メディア学会の<a href="https://www.ite.or.jp/content/journal/">学会誌</a>の2018年7月号《<a href="https://www.ite.or.jp/content/opendata/">私の研究開発ツール</a>》（第100回）Table::Hack 表形式データの前分析ソフトウェア
+3. <a href="https://gihyo.jp/magazine/wdpress">Web+Press DB</a> 第124巻(翔泳社) 2021年8月号の<a href="https://gihyo.jp/dev/serial/01/perl-hackers-hub">Perl Hackers Hub</a> の連載 第68回目 
+
