@@ -177,7 +177,7 @@ cpanm -U App::Bin4TSV
 
 上記の様な流れ(1〜5)を手際よく実現する手段をうまく確立することで、世の中のいろいろなデータ処理やデータ分析の問題が解決するであろう。
 このような流れについて、参考となる資料としては、次の2点が上げられる。
-これらは、本ソフトウェアのUnixコマンド方式ではなくて、SQLのデータベースにおける考え方として、上記の考え方を表そうとしているものである。
+これらは、本ソフトウェアのUnixコマンド方式ではなくて、**SQLのデータベースにおけるデータプロファイリングの考え方**として、上記の考え方を表そうと、本文書の作成者が過去に試みたものである。
 - <a href="https://www.slideshare.net/shimonotoshiyuki/make-accumulated-data-in-companies-eloquent-by-sql-statement-constructors-pdf">IEEE Big Data 2017での発表</a>
 - <a href="https://www.slideshare.net/shimonotoshiyuki/sqlgen190412">SQL⽂⾃動⽣成器による 簡潔かつ洗練度の⾼い Data Profilingの試み</a>
 
