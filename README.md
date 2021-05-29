@@ -190,3 +190,7 @@ cpanm -U App::Bin4TSV
 2. 映像情報メディア学会の<a href="https://www.ite.or.jp/content/journal/">学会誌</a>の2018年7月号《<a href="https://www.ite.or.jp/content/opendata/">私の研究開発ツール</a>》（第100回）Table::Hack 表形式データの前分析ソフトウェア
 1. IEEE Big Data 2016 (2016年12月ワシントンDC)の<a href="http://cci.drexel.edu/bigdata/bigdata2016/Workshops.html">Workshop</a>(2nd International workshop on Methodologies to Improve Big Data Projects)での<a href="https://www.slideshare.net/shimonotoshiyuki/a-hacking-toolset-for-big-tabular-files-3">発表</a>
 4. キヤノングローバル戦略研究所での経済物理学の<a href="https://cigs.canon/event/report/20161021_3981.html">研究集会</a>(2016年8月29日)での<a href="https://www.slideshare.net/shimonotoshiyuki/ss-65145461">発表</a>
+
+# LICENSE
+
+Same as Perl.
