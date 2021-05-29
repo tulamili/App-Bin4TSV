@@ -20,7 +20,7 @@ cpanm https://github.com/tulamili/App-Bin4TSV.git
 cpanm App::Bin4TSV  
 ## cpanm -v App::Bin4TSV または cpanm --verbose App::Bin4TSV でインストール途中の詳細も分かる。
 ```
-上記は、30秒程度以内で完了するであろう。<a href="https://metacpan.org/pod/App::Bin4TSV">App::Bin4TSV</a>はCPANモジュールである。
+上記は、30秒程度以内で完了するであろう。<a href="https://metacpan.org/pod/App::Bin4TSV">App::Bin4TSV</a>はCPANモジュールである。`cpanm`コマンドの`cpan`を使っても良いが、それだと準備に時間がかかるであろう。
 
 上記のインストールした後で、**アンインストール**する場合(このソフトウェアの利用を今後しない場合)には、下記を行う。
 ```
