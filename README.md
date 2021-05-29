@@ -40,6 +40,13 @@ cpanm -U App::Bin4TSV
 
 # 関連資料
 
+## 関連するCPANモジュール
+
+現状(2021年5月現在)、https://metacpan.org/author/TULAMILI にある、モジュール名 Bin::で始まるモジュール8個が関連するCPANモジュールである。
+
+
+## 関連記事および講演
+
 このモジュール(もしくはGitHubのこのレポジトリ)が提供するコマンド群は、下記で解説が講演や雑誌投稿の形で過去に行われた。
 
 1. <a href="https://gihyo.jp/magazine/wdpress">Web+Press DB</a> 第124巻(翔泳社) 2021年8月号の<a href="https://gihyo.jp/dev/serial/01/perl-hackers-hub">Perl Hackers Hub</a> の連載 第68回目 
