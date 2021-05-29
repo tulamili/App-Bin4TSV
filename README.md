@@ -176,7 +176,10 @@ cpanm -U App::Bin4TSV
 数十の列が含まれていることで、一体どれが重要で、どれがそうでないのか、把握していろいろな判断をするのが困難であると考えられる。
 
 上記の様な流れ(1〜5)を手際よく実現する手段をうまく確立することで、世の中のいろいろなデータ処理やデータ分析の問題が解決するであろう。
-
+このような流れについて、参考となる資料としては、次の2点が上げられる。
+これらは、本ソフトウェアのUnixコマンド方式ではなくて、SQLのデータベースにおける考え方として、上記の考え方を表そうとしているものである。
+- <a href="https://www.slideshare.net/shimonotoshiyuki/make-accumulated-data-in-companies-eloquent-by-sql-statement-constructors-pdf">IEEE Big Data 2017での発表</a>
+- <a href="https://www.slideshare.net/shimonotoshiyuki/sqlgen190412">SQL⽂⾃動⽣成器による 簡潔かつ洗練度の⾼い Data Profilingの試み</a>
 
 
 # 今後の開発計画についてのメモ
@@ -220,7 +223,7 @@ cpanm -U App::Bin4TSV
 
 ## 関連記事および講演
 
-このモジュール(もしくはGitHubのこのレポジトリ)が提供するコマンド群は、下記で解説が講演や雑誌投稿の形で過去に行われた。
+このモジュール(もしくはGitHubのこのレポジトリ)が提供するコマンド群、すなわち、本ソフトウェアは、下記で解説が講演や雑誌投稿の形で過去に行われた。
 
 1. <a href="https://gihyo.jp/magazine/wdpress">Web+Press DB</a> 第124巻(翔泳社) 2021年8月号の<a href="https://gihyo.jp/dev/serial/01/perl-hackers-hub">Perl Hackers Hub</a> の連載 第68回目 
 2. 映像情報メディア学会の<a href="https://www.ite.or.jp/content/journal/">学会誌</a>の2018年7月号《<a href="https://www.ite.or.jp/content/opendata/">私の研究開発ツール</a>》（第100回）Table::Hack 表形式データの前分析ソフトウェア
